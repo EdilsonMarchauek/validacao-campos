@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cadastro Pessoa</title>
+</head>
+<body>
+    <head>Cadastro</head><br>
+    Nome: <input type="text" name="nome" id="nome"><br>
+    Idade: <input type="number" name="idade" id="idade"><br>
+    Sexo: 
+    <input type="radio" name="sexo" id="sexo" value="Masculino">Masculino
+    <input type="radio" name="sexo" id="sexo" value="Feminino">Feminino
+    <br>
+    <input type="checkbox" name="maiorIdade" id="maiorIdade" value="maior">
+    Declaro ser maior de 18 anos
+    <br>
+    Como conheceu o site?
+    <select id="selOpcao">
+        <option value="Nenhum">Selecione...</option>
+        <option value="Ind">Indicação de amigo</option>
+        <option value="Out">Outro site</option>
+        <option value="Goo">Google</option>
+    </select>
+    <br>
+    <textarea id="txtArea"></textarea>
+    <br>
+    <button onclick="cadastrar()">Cadastrar</button>    
+    <script src="script.js"></script>
+</body>
+</html>
